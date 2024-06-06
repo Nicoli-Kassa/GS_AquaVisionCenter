@@ -4,19 +4,18 @@ const toggleForm = () => {
 };
 
 function login() {
-  const email = document.getElementById('email').value;
-  const password = document.getElementById('password').value;
+  const email = document.querySelector('#emailLogin').value;
+  const password = document.querySelector('#passwordLogin').value;
 
 
   if (email === "user@example.com" && password === "password") {
+    alert("Seja Bem-vindo(a) a nossa plataforma!")
       // Redireciona para a página principal após login bem-sucedido
-      window.location.href = 'index.html';
+      window.location.href = '/index.html';
   } else {
       alert("Email ou senha incorretos");
   }
 }
-
-
 
 function cadastrarSe(){
   const nomeCadastro = document.querySelector('#nomeCadastro').value;
