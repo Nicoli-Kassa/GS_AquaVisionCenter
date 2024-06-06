@@ -64,15 +64,17 @@ btnCadastrar.addEventListener('click', function(e){
     e.preventDefault();
 
     // Chamar a função cadastrarProjeto
-    cadastrarProjeto()
-
-    // Alert
-    alert("Projeto Cadastrado!")
-
-    // Limpa formulário
-    forms.reset();
+    if( inputNomeCriador.value !== '' && inputEmail.value !== '' && inputNomeProjeto.value !== '' && inputProblema.value !== '' && inputSolucao !== '')
+    {
+        cadastrarProjeto()
+        alert("Projeto Cadastrado!")
+        forms.reset();
+    }
+    else
+    {
+        alert("Não foi possível cadastrar o projeto. Tente novamente.")
+    }
 })
-
 
 // CREATE -> Criando/cadastrando novo projeto
 function cadastrarProjeto(){
