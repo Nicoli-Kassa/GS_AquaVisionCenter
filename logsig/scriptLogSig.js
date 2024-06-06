@@ -11,7 +11,7 @@ function login() {
   if (email === "user@example.com" && password === "password") {
     alert("Seja Bem-vindo(a) a nossa plataforma!")
       // Redireciona para a página principal após login bem-sucedido
-      window.location.href = './index.html';
+      window.location.href = '../index.html';
   } else {
       alert("Email ou senha incorretos");
   }
@@ -28,7 +28,7 @@ function cadastrarSe(){
     alert("Cadastro realizado com sucesso!")
     
     // Redireciona para a página principal após login bem-sucedido
-    window.location.href = './index.html';
+    window.location.href = '../index.html';
   }
   else
   {
