@@ -6,6 +6,9 @@ Camila Pedroza da Cunha | RM 558768
 Isabelle Dallabeneta Carlesso | RM 554592
 Nicoli Amy Kassa | RM 559104
 
+## GitPages
+#### [AquaVision Center](https://nicoli-kassa.github.io/GS_AquaVisionCenter/)
+
 ### O Problema
 Muitas empresas, startups e organizações não governamentais (ONGs) querem contribuir para a preservação da vida marinha, mas enfrentam dificuldades devido à falta de apoio, visibilidade e uma plataforma que facilite a colaboração. Atualmente, há uma falta de centralização dos dados sobre a saúde dos oceanos, o que dificulta a compreensão dos problemas ambientais específicos e a coordenação de esforços para resolvê-los.
 
